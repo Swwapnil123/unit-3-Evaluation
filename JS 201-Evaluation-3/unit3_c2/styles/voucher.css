@@ -1,0 +1,28 @@
+#navbar{
+    display: flex;
+    background-color: aqua;
+  }
+  a{
+    margin-left: auto;
+    text-decoration: none;
+   margin-top: 20px;
+  }
+  #voucher_list{
+        display: grid;
+        grid-template-columns: repeat(4,22%);
+         grid-gap: 5%; 
+         margin-top: 50px; 
+          
+  }
+
+  img{
+      height: 300px;
+      width: 200px;
+  }
+  h3{
+    text-align: center;
+  }
+  h3{
+    margin-left: 250px;
+  }
+  
