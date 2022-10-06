@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+#cart{
+    display:grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows:auto;
+    justify-content: center;
+    gap:20px;
+  
+  
+  }
+  #cart>div{
+    border:1px solid  gray;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+  img{
+    width:100%;
+    height: 80%;
+  }
+
+#check{
+    margin-top:0px;
+   
+}
+#cart_total{
+    font-size:30px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-weight: bold;
+}
